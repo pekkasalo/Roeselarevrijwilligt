@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="be.howest.pekka.roeselarevrijwilligt.MagJeVrijwilligers"
+    android:background="@color/RoeslaGreen"
+    android:clickable="true">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="MAG JE VRIJWILLIGERS INSCHAKELEN?"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:isScrollContainer="true"
+           >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/magjevrijwilligers1"
+                android:id="@+id/image_mag_je"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:text="Elke feitelijke vereniging, private of publieke rechtspersoon zonder winstoogmerk mag vrijwilligers inschakelen:"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/textView3"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="- een vzw, denk aan De Roma, Borgerstein, Joka, ..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="- een lokale afdeling van een koepel, zoals een afdeling van KVG, Femma, s-plus, ..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="- een feitelijke vereniging, door minstens 2 personen geleid, bijvoorbeeld een straatcomité,  een dartsclub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="- een stichting van openbaar nut, zoals Het Rode Kruis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="- openbare besturen, denk maar aan een gemeente, OCMW, een school, een bibliotheek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="- ivzw's (internationale vzw's) als Don Bosco Youth-Net"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="Opgelet! Organisaties mét winstoogmerk, zelfstandigen of individuele personen kunnen nooit vrijwilligerswerk organiseren volgens de wet. Dat betekent dat de mensen die daar onbezoldigd werken, niet dezelfde bescherming genieten als in bovenstaande organisaties. Ze zijn dus niet immuun en vergoedingen zijn belastbaar."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

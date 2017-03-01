@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="RoeslaRed">#e8645a</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="RoeslaGreen">#76c7c0</color>
+    <color name="NappulaHarmaanVihrea">#76c7c0</color>
+    <color name="NappulaTurkoosi">#37c1dc</color>
+    <color name="NappulaKeltainen">#dec531</color>
+    <color name="NappulaVioletti">#9f80ac</color>
+    <color name="RoeslaGreenTwo">#6cb9b3</color>
+
+</resources>

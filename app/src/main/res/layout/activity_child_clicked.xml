@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_child_clicked"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+
+    android:paddingTop="5dp"
+    android:background="@color/RoeslaGreen"
+    tools:context="be.howest.pekka.roeselarevrijwilligt.ChildClicked">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundcorner"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+               >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="DAGOPPAS OP ZATERDAGMIDDAG BIJ PERSOON MET LICHT MENTALE BEPERKING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:id="@+id/child_clicked_header"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:text="vzw Solidariteit voor het gezin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/child_clicked_employer_header"
+                android:layout_below="@id/child_clicked_header"
+                android:layout_marginTop="3dp"/>
+            <TextView
+                android:text="Als vrijwilliger hulp bieden bij de middagmaaltijd en daarna nog wat gezelschap bieden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/child_clicked_description"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/child_clicked_employer_header"/>
+
+            <LinearLayout
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_below="@id/child_clicked_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:id="@+id/search_linear_employee"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Employer      " />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/child_clicked_employer_bot"
+                    android:text="vzw Solidariteit voor het gezin" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_below="@id/search_linear_employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:id="@+id/search_linear_persons">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Persons hired:       " />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/child_clicked_amount_hired"
+                    android:text="2 vrijwilligers gezocht" />
+            </LinearLayout>
+
+                    <Button
+                        android:text="Subscribe"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/search_linear_persons"
+                        android:id="@+id/button_subscribe_for_vacancy"
+                      android:layout_gravity="center"
+                        android:textSize="14sp" />
+            </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+

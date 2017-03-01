@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:paddingTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tablerowSearch"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:background="@drawable/roundcornertoolbar">
+
+
+        <TextView
+            android:text="DAGOPPAS OP ZATERDAGMIDDAG BIJ PERSOON MET LICHT MENTALE BEPERKING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:id="@+id/header_textview"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <TextView
+            android:text="vzw Solidariteit voor het gezin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/employer_name_textview"
+            android:layout_below="@id/header_textview"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:text="Als vrijwilliger hulp bieden bij de middagmaaltijd en daarna nog wat gezelschap bieden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/job_description_textview"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/employer_name_textview"/>
+
+        <LinearLayout
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_below="@id/job_description_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:id="@+id/search_linear_employee"
+            >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                        android:id="@+id/employer_textview"
+                    android:text="Employer      " />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/employer_amount_textview"
+                    android:text="vzw Solidariteit voor het gezin" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_below="@id/search_linear_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:id="@+id/search_linear_persons">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/persons_textview"
+                    android:text="Persons hired:       " />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/persons_amount_textview"
+                    android:text="2 vrijwilligers gezocht" />
+        </LinearLayout>
+
+</RelativeLayout>
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@drawable/search"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:id="@+id/child_icon" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/child_text"-->
+    <!--android:paddingLeft="45dp"-->
+    <!--android:paddingTop="12dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:text=""-->
+    <!--android:textAppearance="?android:textAppearanceMedium"/>-->

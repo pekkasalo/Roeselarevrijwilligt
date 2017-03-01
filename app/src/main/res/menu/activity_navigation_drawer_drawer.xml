@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_Matched_Vacancies"
+            android:icon="@drawable/match"
+            android:title="@string/Matched_vacancies" />
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+
+    </group>
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/nav_partners"
+                android:icon="@drawable/handshake"
+                android:title="@string/Partners" />
+            <item
+                android:id="@+id/nav_info_on_volunteering"
+                android:icon="@drawable/info"
+                android:title="@string/Info_on_volunteering" />
+            <item
+                android:id="@+id/nav_Terms_Of_Engagement"
+                android:icon="@drawable/file"
+                android:title="@string/Terms_of_Engagement" />
+
+        </menu>
+    </item>
+
+</menu>
